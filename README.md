@@ -119,7 +119,7 @@ The key features are:
 
 If you are building a <abbr title="Command Line Interface">CLI</abbr> app to be used in the terminal instead of a web API, check out <a href="https://typer.tiangolo.com/" class="external-link" target="_blank">**Typer**</a>.
 
-**Typer** is FastAPI's little sibling. And it's intended to be the **FastAPI of CLIs**. ⌨️ 🚀
+**Typer** is FastAPI's little sibling. And it's intended to be the **FastAPI of CLIs**.
 
 ## Requirements
 
@@ -377,7 +377,7 @@ item: Item
     * `datetime` objects.
     * `UUID` objects.
     * Database models.
-    * ...and many more.
+    *...and many more.
 * Automatic interactive API documentation, including 2 alternative user interfaces:
     * Swagger UI.
     * ReDoc.
@@ -416,13 +416,13 @@ Try changing the line with:
 ...from:
 
 ```Python
-        ... "item_name": item.name ...
+... "item_name": item.name...
 ```
 
 ...to:
 
 ```Python
-        ... "item_price": item.price ...
+... "item_price": item.price...
 ```
 
 ...and see how your editor will auto-complete the attributes and know their types:
@@ -444,7 +444,7 @@ For a more complete example including more features, see the <a href="https://fa
     * extremely easy tests based on HTTPX and `pytest`
     * **CORS**
     * **Cookie Sessions**
-    * ...and more.
+    *...and more.
 
 ## Performance
 
